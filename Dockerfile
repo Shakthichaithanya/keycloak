@@ -10,4 +10,4 @@ COPY themes /opt/keycloak/themes
 RUN /opt/keycloak/bin/kc.sh build
 
 # Start in development mode (for production use "start")
-CMD ["start"]
+CMD ["start-dev"]
